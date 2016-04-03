@@ -46,7 +46,10 @@ pkill -9 -o chrome
 killall -9 chrome
 killall -9 Xvfb
 killall -9 sleep
+<<<<<<< HEAD
 sleep 60s
+=======
+>>>>>>> origin/master
 while :
 do
     echo "Downloading chrome user data dir profile..."
@@ -76,4 +79,8 @@ do
     echo "Killing virtual X display..."
     killall -9 Xvfb
     echo "Restart TE bots after $((${timer}+${timeplus})) seconds."
+<<<<<<< HEAD
 done
+=======
+done
+>>>>>>> origin/master
